@@ -1,7 +1,2 @@
 on lai git5
-<<<<<<< HEAD
 aa
-=======
-aaaaaaaaaaa
-bbbbb
->>>>>>> 10c074cd7c5d41d8f7d13c435004adc6d3715496
