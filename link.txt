@@ -1,2 +1,19 @@
 node moduls
 https://www.tutorialsteacher.com/nodejs/nodejs-modules
+https://www.w3schools.com/nodejs/nodejs_modules.asp
+-------------
+event loop
+https://nodejs.dev/learn/the-nodejs-event-loop
+---------------
+Strems
+Trong trường hợp này, trước khi thực hiện ghi file, chúng ta đã đẩy toàn bộ dữ liệu của file đọc được vào bộ nhớ,
+điều này rất dễ gây tràn bộ nhớ và kể cả có không gây tràn bộ nhớ thì việc lãng phí bộ nhớ như vậy cũng là một cách làm không hiệu quả
+
+Khi sử dụng pipe, thì mặc định, fs.createReadStream sẽ chia nhỏ lượng dữ liệu để truyền vào writeStream , mặc định là 64*1024 (64KB)
+https://youtu.be/HRTpPMCbsGg
+https://viblo.asia/p/loi-ich-cua-stream-khi-lam-viec-voi-du-lieu-lon-trong-nodejs-6J3ZgXmLlmB
+
+
+--------------------------
+web server
+https://www.geeksforgeeks.org/node-js-web-server/#:~:text=js%20%3F-,Node.,the%20content%20to%20the%20client.
