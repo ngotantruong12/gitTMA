@@ -17,3 +17,25 @@ https://viblo.asia/p/loi-ich-cua-stream-khi-lam-viec-voi-du-lieu-lon-trong-nodej
 --------------------------
 web server
 https://www.geeksforgeeks.org/node-js-web-server/#:~:text=js%20%3F-,Node.,the%20content%20to%20the%20client.
+
+-------------------------
+asyn await  (promise k loi thoi, su dụng promisALL()
+async  function  getABC () {
+      let A = await getValueA(); // getValueA takes 2 second to finish
+      let B = await getValueB(); // getValueB takes 4 second to finish
+      let C = await getValueC(); // getValueC takes 3 second to finish
+
+      return A*B*C;
+    }
+
+=>promisALL()
+  async  function  getABC () {
+      // Promise.all() allows us to send all requests at the same time. 
+      let results = await Promise.all([ getValueA, getValueB, getValueC ]); 
+
+      return results.reduce((total,value) => total * value);
+    }
+)
+https://viblo.asia/p/giai-thich-ve-asyncawait-javascript-trong-10-phut-1VgZvBn7ZAw
+
+https://tutorialzine.com/2017/07/javascript-async-await-explained
