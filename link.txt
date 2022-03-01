@@ -13,6 +13,16 @@ Khi sử dụng pipe, thì mặc định, fs.createReadStream sẽ chia nhỏ l�
 https://youtu.be/HRTpPMCbsGg
 https://viblo.asia/p/loi-ich-cua-stream-khi-lam-viec-voi-du-lieu-lon-trong-nodejs-6J3ZgXmLlmB
 
+https://www.tutorialspoint.com/nodejs/nodejs_streams.htm
+
+data − This event is fired when there is data is available to read.
+
+end − This event is fired when there is no more data to read.
+
+error − This event is fired when there is any error receiving or writing data.
+
+finish − This event is fired when all the data has been flushed to underlying system.
+
 
 --------------------------
 web server
@@ -39,3 +49,7 @@ async  function  getABC () {
 https://viblo.asia/p/giai-thich-ve-asyncawait-javascript-trong-10-phut-1VgZvBn7ZAw
 
 https://tutorialzine.com/2017/07/javascript-async-await-explained
+
+-----------------------------------
+expressframwork
+https://www.tutorialspoint.com/nodejs/nodejs_express_framework.htm
